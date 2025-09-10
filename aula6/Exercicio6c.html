@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css3/style2.css">
+    <title>MyBlog</title>
+</head>
+<body>
+    <div class = "container">
+        <header class = "fonte">Literatura e Tecnologia</header> 
+        
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:3000/Exercicio6.html">Home</a></li>
+                <li><a href="http://127.0.0.1:3000/Exercicio6c.html">Contato</a></li> 
+                <li><a href="http://127.0.0.1:3000/Exercicio6b.html">Loja e Menu</a></li>
+                <li><a href="">Livros</a></li>
+                <li><a href="">Tecnologias</a></li>
+            </ul>
+        </nav>
+        
+        <p>Envie para nós alguma reclamação, solicitação, sugestão ou até mesmo um PIX!!</p>
+            
+        <form>
+            <fieldset>
+                <legend>Contato</legend>
+                <br>
+                <label for="name">Nome</label> 
+                <br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="telephone">Telefone</label>
+                <br>
+                <input type="tel" id="telephone" name="telephone" pattern="\\([0-2]{2}\\) [0-9]{4,5}-[0-9]{4}" required>
+                <br><br>
+                <label for="asked">Pedido:</label>
+                <br>
+                <textarea id="asked" name="asked" required></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>  
+        </form> 
+        
+        <footer>
+            <p>Serra, Manguinhos | Phone: (27)99345-9070</p>
+            <p>Aberto: Segunda à Sábado - 9h30 às 20h00</p>
+        </footer>
+    </div>    
+</body>
+</html>

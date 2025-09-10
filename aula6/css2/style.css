@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+@font-face {
+    font-family: aliendude1;
+    src: url(/aliendude/aliendude.ttf);
+}
+
+h1{
+  font-family: "Asimovian", sans-serif;  
+}
+
+h2{
+  font-family: "aliendude1"; 
+  color: blue ;
+}

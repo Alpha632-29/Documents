@@ -1,0 +1,48 @@
+.pixel{
+    width: 1px;
+    height: 1px;
+    background: red;
+}
+
+.mm{
+    width: 1mm;
+    height: 1mm;
+    background: red;
+}
+
+.cm{
+    width: 1cm;
+    height: 1cm;
+    background: red;
+}
+
+
+#pai{
+    width: 400px;
+    height: 400px;
+    background: red;
+}
+
+.filho{
+    width: 50%;
+    height: 50%;
+    background: blue;
+}
+
+html{
+    font-size: 16px;
+}
+
+#pai-em{
+    font-size:20px;
+}
+
+.em{
+    background-color: yellow;
+    width: 10em; /*10 * 20px = 200px*/
+}
+
+.rem{
+    background-color: green;
+    width: 20rem; 
+}

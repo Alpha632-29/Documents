@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- EM = calculado em relação ao font-size do "pai" ou ao font-size do-->
+    <h2>Unidades de Medida EM e REM</h2>
+    <section id = "pai-em"> <!-- EM = calculado em relação ao font-size do "pai" (Obedece hierarquia) ou ao font-size do browser-->
+        <article class = "em"> <!-- REM = calculado em relação ao elemento raíz <HTML> (Não obedece hierarquia)-->
+            Em
+        </article>
+    </section>
+
+    <section id = "pai-em"> <!-- EM = calculado em relação ao font-size do "pai" (Obedece hierarquia) ou ao font-size do browser-->
+        <article class = "rem"> <!-- REM = calculado em relação ao elemento raíz <HTML> (Não obedece hierarquia)-->
+            Rem
+        </article>
+    </section>
+    <br>
+
+    <h2>Porcentagem</h2>
+    <section id = "pai">
+        <article class = "filho">
+            Filho
+        </article>
+    </section>
+    <br>
+    
+    <h2>Unidades de Medidas CSS</h2>
+    <div class = "pixel">
+        1px
+    </div>
+    <br>
+    <br>
+    <div class = "mm">
+        1mm
+    </div>
+    <br>
+    <br>
+    <div class = "cm">
+        1cm
+    </div>
+</body>
+</html>

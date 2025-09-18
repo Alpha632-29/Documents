@@ -1,0 +1,33 @@
+body{
+    background: #CBDCEB;
+}
+
+table{
+    border: 1px solid #ccc;  
+    border-collapse: collapse; /* evita bordas duplas entre células */
+    margin: 0px;               
+    padding: 0px;              
+    width: 100%;             /* largura relativa: ocupa toda a tela disponível */
+    table-layout: fixed;     /* Torna o tamanho da tabela fixo, independente da proporção da tela */
+}
+
+h1{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+table.espaco th, table.espaco td{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 0.3rem;
+}
+
+table th, table td{
+    text-align: center;
+    
+}
+
+table.maiusculo th{
+    font-size: 1rem;
+    text-transform: uppercase;
+}

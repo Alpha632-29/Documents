@@ -17,18 +17,25 @@ caption{
     margin: 1.1rem;
 }
 
-table.espaco th, table.espaco td{
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    padding: 0.3rem;
+table caption{
+    margin: 0.5rem 0 0.75rem;
+    font-size: 1.5rem;
 }
 
+table.espaco tr{
+    background-color: #f8f8f8;
+    border: 0.1rem solid #ddd;
+    padding: 0.5rem;
+}
+
+
 table th, table td{
-    text-align: center;
-    
+    text-align: center;  
+    padding: 0.4rem;
 }
 
 table.maiusculo th{
     font-size: 1rem;
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
 }

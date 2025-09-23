@@ -11,9 +11,10 @@ table{
     table-layout: fixed;     /* Torna o tamanho da tabela fixo, independente da proporção da tela */
 }
 
-h1{
+caption{
     text-align: center;
     font-size: 1.3rem;
+    margin: 1.1rem;
 }
 
 table.espaco th, table.espaco td{

@@ -1,0 +1,22 @@
+.borda{
+    border: 1px solid red;
+    background-color: black;
+    color: antiquewhite;
+    height: 7vh;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+li{
+    display: inline-block;
+    margin: 1em;
+}
+
+li:hover{
+    background-color: rgb(193,193,164);
+}
+
+.flutuar{
+    float: right;
+}

@@ -1,0 +1,14 @@
+.borda{
+    border: 1px solid red;
+    width: 90vw;
+    height: 10vh;
+    background-color: aqua;
+}
+
+.bloco{
+    border: 1px solid red;
+    width: 90vw;
+    height: 10vh;
+    background-color: aqua;
+    display: inline-block;
+}

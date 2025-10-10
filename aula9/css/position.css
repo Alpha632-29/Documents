@@ -1,0 +1,31 @@
+.container{
+    background-color: blue;
+    width: 50%;
+    height: 20rem;
+}
+
+.div1{
+    background-color: yellow;
+    width: 30%;
+    height: 5rem;
+    display: inline-block;
+    position: relative; /*top, bottom, left, right*/ /*Relative - a origem dos eixos(no plano cartesiano é iniciado onde o objeto foi inicialmente renderizado)*/
+    top: 15px;
+    left: 30px;
+}
+
+.div2{
+    background-color: pink;
+    width: 30%;
+    height: 5rem;
+    display: inline-block;
+    position: absolute; /*a origem dos eixos no plano cartesiano é iniciado dentro do .container, elemento pai*/
+    top: 1rem;
+}
+
+.div3{
+    background-color: red;
+    width: 30%;
+    height: 5rem;
+    display: inline-block;
+}

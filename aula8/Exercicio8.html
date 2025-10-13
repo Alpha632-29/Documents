@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="css/exercicio8.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Cadastrar Usuário</h1>
-
-    <form>
-        <fieldset>
+<body>   
+    <fieldset>
+        <form>
+            <h1>Cadastrar Usuário</h1>
+            
             <label for ="name">Nome:</label>
             <input type="text" id="name" name="name">
             
@@ -22,14 +22,17 @@
             
             <label for="senha">Confirmar senha:</label>
             <input type="password" id="senha" name="senha">
-        </fieldset>    
-        <fieldset>
             <label>Idade:</label>
-            <input type ="radio" id="idade" name="maior17" value="maior">
-            <label for="idade">Acima 17</label>
+            
+            <div>
+                <input type ="radio" id="idade" name="maior17" value="maior">
+                <label for="idade">Acima 17</label>
+            </div>
 
-            <input type ="radio" id="idade1" name="menor17" value="menor">
-            <label for="idade1">Abaixo ou igual a 17</label>
+            <div>
+                <input type ="radio" id="idade1" name="menor17" value="menor">
+                <label for="idade1">Abaixo ou igual a 17</label>
+            </div>
             
             <label for ="descricao">Descrição:</label>
             <textarea id ="descricao" name="descricao"></textarea>
@@ -45,16 +48,23 @@
             </datalist>
 
             <label>Interesses:</label>
-            <input type ="checkbox" id="prof1" name="prof1" value="Programador">
-            <label for="prof1">Programador</label>
             
-            <input type ="checkbox" id="prof2" name="prof2" value="Design">
-            <label for="prof2">Design</label>
+            <div>
+                <input type ="checkbox" id="prof1" name="prof1" value="Programador">
+                <label for="prof1">Programador</label>
+            </div>
             
-            <input type ="checkbox" id="prof3" name="prof3" value="Analista">
-            <label for="prof3">Analista</label>
-        </fieldset>
-        <input type="submit" value="Enviar Dados">
-    </form>
+            <div>
+                <input type ="checkbox" id="prof2" name="prof2" value="Design">
+                <label for="prof2">Design</label>
+            </div>
+
+            <div>
+                <input type ="checkbox" id="prof3" name="prof3" value="Analista">
+                <label for="prof3">Analista</label>
+            </div>
+            <input type="submit" value="Enviar Dados">
+        </form>
+    </fieldset>
 </body>
 </html>
